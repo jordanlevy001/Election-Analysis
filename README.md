@@ -25,8 +25,7 @@ The purpose of this election audit is to assist the election commission with det
   - Raymon Anthony Doane received 11,606 votes, which was 3.1% of the total votes cast.
 - The candidate Diana DeGette won the election. She received 272,892 votes, which was 73.8% of the total votes cast.
 
-<img width="374" alt="Election Analysis Txt File" src="https://user-images.githubusercontent.com/88804543/132061141-42cec2fb-2500-4244-92ab-2e27d51a0b3b.png">
-
+<img width="303" alt="Election Results Text File" src="https://user-images.githubusercontent.com/88804543/132064522-0de559de-87f3-4c44-9af8-319f2e9a8995.png">
 
 ## Election Audit Summary
 
