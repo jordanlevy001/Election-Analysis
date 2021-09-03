@@ -29,10 +29,14 @@ The purpose of this election audit is to assist the election commission with det
 
 ## Election Audit Summary
 
-In a summary statement, provide a business proposal to the election commission on how this script can be used, with some modifications, for any election. Give at least 2 examples of how this script can be modified to be used for other elections.
-
-This script can be used to analyze the voting data from other elections. We can modify the input file, the file which will be read by our script. This script will then analyze the csv file which we designate.
+This script can be used to analyze the voting data from other elections. We can modify the script in multiple ways. To analyze a file containing different voting data, we can modify the input file, the file which will be read by our script. The script will then analyze the csv file we designate. Please see the following example code:
 
 <img width="495" alt="File to Load" src="https://user-images.githubusercontent.com/88804543/132064886-e8f3596f-88cc-4d32-adc7-42e92410f0f7.png">
 
 For the file_to_load variable, we can select a new file and it's location, which would replace the '("Resources", "election_results.csv")' in the code example above. We can also save the new results to a different path by modifying the file_to_save variable. We could create a new text file to write the results to; so we would replace where it says '("analysis", "election_analysis.txt")' in the example code above.
+
+If we wanted to analyze a different voting data csv file which was formatted slightly differently than this one ("election_results.csv"), we could also adjust where the script extracts information.
+
+<img width="376" alt="Data Extraction" src="https://user-images.githubusercontent.com/88804543/132067109-7233f950-fb47-42ad-9765-dfa2954bcb32.png">
+
+In our "election_results.csv" file, the candidate names were in column C, and the county name was in column B when opened in Excel. We could adjust the location where the data is extracted from. In the example code above, we could modify the script to pull the desired information from a column of our choice by modifying the index in brackets after "row".
