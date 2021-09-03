@@ -5,10 +5,10 @@
 The purpose of this election audit is to assist the election commission with determining the results of the congressional election. The election commission has requested the following information:
 - The voter turnout for each county
 - The percentage of votes from each county out of the total count
-- The county with the highest vote turnout
+- The county with the highest vote count
 - The number of votes each candidate received
-- The percentage of votes each candidate received out of the total number
-- The winning candidate, meaning the candidate who received the highest number of votes
+- The percentage of votes each candidate received out of the total count
+- The winning candidate: the candidate who received the highest number of votes
   - How many votes the winning candidate received
   - The percentage of votes the winning candidate received out of the total votes cast
 
@@ -27,13 +27,16 @@ The purpose of this election audit is to assist the election commission with det
 
 <img width="303" alt="Election Results Text File" src="https://user-images.githubusercontent.com/88804543/132064522-0de559de-87f3-4c44-9af8-319f2e9a8995.png">
 
+<img width="755" alt="Election Results in Terminal" src="https://user-images.githubusercontent.com/88804543/132073788-b32539a7-5fde-48f0-b80a-c770cc64c3da.png">
+
+
 ## Election Audit Summary
 
-This script can be used to analyze the voting data from other elections. We can modify the script in multiple ways. To analyze a file containing different voting data, we can modify the input file, the file which will be read by our script. The script will then analyze the csv file we designate. Please see the following example code:
+This script can be utilized to analyze voting data from other elections. We can modify the script in multiple ways. To analyze a file containing different voting data (formatted identically to this "election_results.csv"), we can modify the input file, the file which will be read by our script. The script will then analyze the csv file we designate. Please see the following example code:
 
 <img width="495" alt="File to Load" src="https://user-images.githubusercontent.com/88804543/132064886-e8f3596f-88cc-4d32-adc7-42e92410f0f7.png">
 
-For the file_to_load variable, we can select a new file and it's location, which would replace the '("Resources", "election_results.csv")' in the code example above. We can also save the new results to a different path by modifying the file_to_save variable. We could create a new text file to write the results to; so we would replace where it says '("analysis", "election_analysis.txt")' in the example code above.
+For the 'file_to_load' variable, we can select a new file and its location, which would replace the '("Resources", "election_results.csv")' in the code example above. We can also save the new results to a different path by modifying the 'file_to_save' variable. We could create a new text file to write the results to; so we would replace where it says '("analysis", "election_analysis.txt")' in the example code above.
 
 If we wanted to analyze a different voting data csv file which was formatted slightly differently than this one ("election_results.csv"), we could also adjust where the script extracts information.
 
